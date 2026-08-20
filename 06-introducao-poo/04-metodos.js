@@ -1,10 +1,10 @@
 class Pessoa {
-    constructor(nome, nota){
+    constructor(nome, nota) {
         this.nome = nome;
         this.nota = nota;
     };
 
-    apresentar(){
+    apresentar() {
         console.log(`${this.nome} - Nota ${this.nota}`)
     }
 }
